@@ -167,7 +167,7 @@
                             <a href="" class="nav-item nav-link">Login</a>
                             <a href="" class="nav-item nav-link">Register</a>
                         </div> -->
-                        @if (Route::has('login'))
+                        {{-- @if (Route::has('login'))
                             <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right">
                                 @auth
                                     <a href="{{ url('/dashboard') }}"
@@ -183,7 +183,7 @@
                                     @endif
                                 @endauth
                             </div>
-                        @endif
+                        @endif --}}
                     </div>
 
 
